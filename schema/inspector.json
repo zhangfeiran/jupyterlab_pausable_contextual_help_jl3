@@ -1,0 +1,40 @@
+{
+  "title": "MyInspector",
+  "description": "Inspector settings.",
+  "jupyter.lab.menus": {
+    "main": [
+      {
+        "id": "jp-mainmenu-help",
+        "items": [
+          {
+            "type": "separator",
+            "rank": 0.1
+          },
+          {
+            "command": "myinspector:open",
+            "rank": 0.1
+          },
+          {
+            "type": "separator",
+            "rank": 0.1
+          }
+        ]
+      }
+    ]
+  },
+  "jupyter.lab.shortcuts": [
+    {
+      "command": "myinspector:toggle",
+      "keys": ["Accel I"],
+      "selector": "body"
+    },
+    {
+        "command": "myinspector:trigger",
+        "keys": ["F1"],
+        "selector": "body[data-jp-inspector='open']"
+    }
+  ],
+  "properties": {},
+  "additionalProperties": false,
+  "type": "object"
+}
