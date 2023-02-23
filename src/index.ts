@@ -99,7 +99,8 @@ const inspector: JupyterFrontEndPlugin<IInspector> = {
             }
             if (!inspector.isAttached) {
                 shell.add(inspector, 'main', {
-                    activate: false
+                    activate: false,
+                    mode: 'split-right'
                 });
             }
             shell.activateById(inspector.id);

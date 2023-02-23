@@ -1,6 +1,6 @@
 {
     "name": "jupyterlab_pausable_contextual_help",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Customized Jupyterlab Contextual Help Panel That Allows Manually Update When Press F1.",
     "keywords": [
         "jupyter",
